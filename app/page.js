@@ -1,4 +1,4 @@
-import { Navbar, HeroSection, PopularSales, Highlights } from "@/components"
+import { Navbar, HeroSection, PopularSales, Highlights, TopSales, Featured, SportCategories, Footer } from "@/components"
 
 export default function Home() {
   return (
@@ -7,6 +7,10 @@ export default function Home() {
       <HeroSection />
       <PopularSales />
       <Highlights />
+      <TopSales />
+      <Featured />
+      <SportCategories />
+      <Footer />
     </div>
   )
 }
