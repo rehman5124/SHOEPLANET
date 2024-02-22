@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className=' bg-gradient-to-b from-rose-500 to-red-500 text-white'>
         <div className=' flex justify-center gap-40 pt-8 pb-10 mt-12'>
-            <div className=''>
+            <div className=' hidden md:block'>
                 <h1 className=' text-lg font-bold'>ABOUT NIKE</h1>
                 <h4>News</h4>
                 <h4>Career</h4>
@@ -12,7 +12,7 @@ function Footer() {
                 <h4>Purpose</h4>
                 <h4>Sustainability</h4>
             </div>
-            <div className=''>
+            <div className=' hidden md:block'>
                 <h1 className=' text-lg font-bold'>GET HELP</h1>
                 <h4>Order Status</h4>
                 <h4>Shipping & Delivery</h4>
@@ -22,7 +22,7 @@ function Footer() {
                 <h4>FAQ</h4>
                 <h4>Contact Us</h4>
             </div>
-            <div className=''>
+            <div className=' hidden md:block'>
                 <h1 className=' text-lg font-bold'>COMPANY</h1>
                 <h4>Gift Cards</h4>
                 <h4>Promotions</h4>

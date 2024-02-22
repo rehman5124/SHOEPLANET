@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import CartSection from "./CartSection";
 import HeroSection from "./HeroSection";
 import PopularSales from "./PopularSales";
 import Highlights from "./Highlights";
@@ -9,6 +10,7 @@ import Footer from "./Footer";
 
 export {
     Navbar,
+    CartSection,
     HeroSection,
     PopularSales,
     Highlights,
