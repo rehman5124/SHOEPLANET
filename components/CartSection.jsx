@@ -51,7 +51,7 @@ function CartSection(props) {
 
       {reduxData.length === 0 ? 
       <img 
-        src="/images/Cart.png"
+        src="/images/cart.png"
         alt="cart icon"
         className=" z-0 size-56 lg:size-44 relative top-[25vh] left-[35vw] lg:top-[20vh] lg:left-[15vw]"
       />
